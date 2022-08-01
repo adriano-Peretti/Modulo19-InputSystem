@@ -60,10 +60,10 @@ public class CarController : MonoBehaviour
         m_Brake = value.isPressed;
     }
 
+    //Tiro
     void OnFire(InputValue value)
     {
         fire = value.isPressed;
-        Debug.Log("fired");
     }
 
     private void Update()
